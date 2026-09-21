@@ -1,0 +1,14 @@
+body {
+    /*background-color: #dfdfdf;
+    background-image: url("gambar/Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+    background: #dfdfdf url("gambar/Background.jpg") repeat-y fixed center;
+}
+
+/* ada static, relative, absolute sama fixed */
+#menu_wi{
+    position: relative;
+    top: 75px;
+}

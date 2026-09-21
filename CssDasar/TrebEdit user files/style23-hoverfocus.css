@@ -1,0 +1,67 @@
+body {
+    /*background-color: #dfdfdf;
+    background-image: url("gambar/Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+    background: #dfdfdf url("gambar/Background.jpg") repeat-y fixed center;
+}
+
+/* ada static, relative, absolute sama fixed */
+#menu_wi{
+    /* position: relative;
+    top: 75px; */ /* cuma berubah sendiri */
+    /* position: absolute;
+    top: 75px; */ /* semuanya elemen kena pengaruhnya, elemen diubah tadi di anggap ga ada lagi di posisi asalnya */
+}
+
+#parent_h1{
+    position: relative;
+    top: 100px;
+}
+#caca{
+    background-color: red;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    z-index: 1;
+}
+
+#cici{
+    background: yellow;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+table{
+    float: left;
+    margin-right: 15px;
+    /* (clear:nilai;) clear buat menghilangkan float ke elemen berikutnya */
+}
+
+/*pakai div > a biar yg kepilih cuma yg langsung ke a*/
+div a{
+    background: yellow;
+}
+
+/* setelag elemen
+p + div{
+    background: yellow;
+} */
+
+/* semua bagian di bawahnya
+div ~ p{
+} */
+
+h1:hover{
+    color:red;
+}
+
+h1: hover + h2{
+    color: red;
+}
+
+input:focus{
+    background: yellow;
+}

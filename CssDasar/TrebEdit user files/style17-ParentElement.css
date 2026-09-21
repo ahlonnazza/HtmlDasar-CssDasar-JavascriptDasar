@@ -1,0 +1,34 @@
+body {
+    /*background-color: #dfdfdf;
+    background-image: url("gambar/Background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+    background: #dfdfdf url("gambar/Background.jpg") repeat-y fixed center;
+}
+
+/* ada static, relative, absolute sama fixed */
+#menu_wi{
+    /* position: relative;
+    top: 75px; */ /* cuma berubah sendiri */
+    /* position: absolute;
+    top: 75px; */ /* semuanya elemen kena pengaruhnya, elemen diubah tadi di anggap ga ada lagi di posisi asalnya */
+}
+
+#parent_h1{
+    position: relative;
+    top: 100px;
+}
+#h1_caca{
+    background: red;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+}
+
+#h3_cici{
+    background: yellow;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+}
