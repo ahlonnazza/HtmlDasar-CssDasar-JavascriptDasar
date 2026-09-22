@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Javascript</title>
+    <script src="main.js"></script>
+    <style>
+        #wrap {
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="2820.jpg" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        //Deklarasi Variabel
+        
+        // Nama dimulai dengan huruf atau _ atau
+        // Nama boleh mengandung huruf, angka, underscore _ dan $ dollar
+        // Nama itu case sensitive
+        // Ada "reserved words" yang tidak boleh dipakai
+        
+        //tipe-data string
+        var text = "sekolah koding";
+        var text2 = "yang baru";
+        //tipe-data number/angka
+        var angka = 1000;
+        var angka2 = 123;
+        
+        //mengubah variable
+        text2 = "yang lama";
+        
+        //operator matematika + - / *
+         // var angka_baru = angka / angka2;
+        
+        //angka_baru++; //increment //menjumlahkan dengan 1
+        angka--; //decrement //mengurangi dengan 1
+        
+        // angka2 = angka2 + angka;
+        angka2 += angka;
+        
+        /*
+        1. memilih id wrap
+        2. metode innerHTML, nulis konten
+        */
+        
+        document.getElementById("wrap").innerHTML = angka2;
+    </script>
+</body>
+</html>

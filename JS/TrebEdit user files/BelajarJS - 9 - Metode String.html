@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Javascript</title>
+    <script src="main.js"></script>
+    <style>
+        #wrap {
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="2820.jpg" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        //Deklarasi Variabel
+        
+        // Nama dimulai dengan huruf atau _ atau
+        // Nama boleh mengandung huruf, angka, underscore _ dan $ dollar
+        // Nama itu case sensitive
+        // Ada "reserved words" yang tidak boleh dipakai
+        
+        //tipe-data string
+        var text = "sekolah koding";
+        var text2 = "yang baru";
+        //tipe-data number/angka
+        var angka = 1000;
+        var angka2 = 123.123123123;
+        
+        //mengubah variabel
+        text2 = "yang lama";
+        
+        //operator matematika + - / %
+         // var angka_baru = angka / angka2;
+        
+        //angka_baru++; //increment //menjumlahkan dengan 1
+        //angka--; //decrement //mengurangi dengan 1
+        
+        //penulisan singkat
+        // angka2 = angka2 + angka;
+        //angka2 += angka;
+        
+        // Metode number
+        // toFixed(), toString(), random(), min(), max(a, b, c)
+        // var angka_baru = Math.max(angka, angka2, angka3);
+        
+        // round(), ceil(), floor()
+        // Object methods (contoh: abs, log)
+        
+        // random spesifik formula → Math.floor(Math.random() * x) + 1;
+        var x = 10; // range / jarak
+        var y = 5;  // batas minimal
+        
+        // batas max x - y?
+        var angka_baru = Math.floor(Math.random() * x) + y;
+        
+        /*
+        1. Memilih id wrap
+        2. Metode innerHTML = ambil konten
+        */
+        
+        // Metode string
+        // length, indexOf, lastIndexOf, search, charAt
+        // toUpperCase(), toLowerCase(), replace
+        // substring(start, end), substr(start, length)
+        
+        var nama = "Hilman Rami Ramadhan";
+        var hasil = nama.replace("Rami", "123");
+        
+        document.getElementById("wrap").innerHTML = hasil;
+    </script>
+</body>
+</html>

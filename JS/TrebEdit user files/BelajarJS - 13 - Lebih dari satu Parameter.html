@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Javascript</title>
+    <script src="main.js"></script>
+    <style>
+        #wrap {
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="2820.jpg" alt="">
+    <div id="wrap"></div>
+
+    <script>
+        /* // FUNGSI
+
+        // Menuliskan fungsi
+        function printText() {
+            alert("Selamat datang!");
+            var x = "Jahagsusbbsjsjsjsjsjs";
+            document.getElementById("wrap").innerHTML = x;
+        }
+
+        // Memanggil fungsi
+        printText(); */
+        
+        /* // Parameter pada fungsi
+        function printText(nama) {
+            var text = nama + " yang baru";
+            document.getElementById("wrap").innerHTML = text;
+        }
+        
+        printText("sekolah koding"); */
+        
+        //parameter pada fungsi
+        function printText(nama, nama2, nama3)
+        {
+            var text = nama + nama2 + nama3;
+            document.getElementById("wrap").innerHTML = text;
+        }
+        
+        printText("sekolah koding ", "123", " yang baru");
+        
+    </script>
+</body>
+</html>
